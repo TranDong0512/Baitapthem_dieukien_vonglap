@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<img id="meo" style="display: none" src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/8/21/829850/Bat-Cuoi-Truoc-Nhung-07.jpg"alt="ảnh mèo">
+<img  id="cho" style="display: none" src="https://meocun.com/wp-content/uploads/5.png" alt="ảnh chó">
+<p id="demo">hiển thị</p>
+<button onclick="clickon()">ấn</button>
+</body>
+<script>
+
+    function clickon(){
+        let img = prompt("nhập ")
+        if ( img == "meo"){
+            document.getElementById("meo").style.display= "block"
+        }else if( img = "cho"){
+            document.getElementById("cho").style.display= "block"
+        }
+    }
+
+</script>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+</body>
+<script>
+    let a = prompt("nhập đường dẫn ảnh")
+    let b = +prompt("nhập số lần muốn lặp lại ảnh")
+    for (let i =1; i <= b; i++) {
+        document.getElementById("demo").innerHTML += '<img src="' + a + '" alt="hinhanh"  >'
+    }
+</script>
+</html>
